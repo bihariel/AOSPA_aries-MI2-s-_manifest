@@ -215,7 +215,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project name="mitwo-dev/platform_frameworks_av" path="frameworks/av" remote="github" revision="android-4.3-aries" />
   <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jb43-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -223,7 +223,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-10.2" />
+  <project name="mitwo-dev/platform_frameworks_native" path="frameworks/native" remote="github" revision="android-4.3-aries" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -248,8 +248,8 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project name="mitwo-dev/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-4.3-aries" />
+  <project name="mitwo-dev/platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="android-4.3-aries" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
@@ -363,7 +363,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="ParanoidAndroid/android_system_core" remote="github" revision="jb43-legacy"  />
+  <project name="mitwo-dev/android_system_core" path="system/core" remote="github" revision="cm-10.2" />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
@@ -383,6 +383,14 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="ParanoidAndroid/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jb43" />
   <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb43" />
+
+  <project name="mitwo-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-4.3" />
+  <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-4.3" />
+  <project name="mitwo-dev/platform_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="android-4.3-aries" />
+  <project name="mitwo-dev/platform_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="android-4.3-aries" />
+  <project name="mitwo-dev/platform_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="android-4.3-aries" />
+  <project name="bihariel/android_hardware_qcom" path="hardware/qcom" remote="github" revision="master" />
+
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
