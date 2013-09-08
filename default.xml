@@ -400,7 +400,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jb43-legacy" />
+  <project path="vendor/pa" name="bihariel/android_vendor_pa" remote="github" revision="jb43-legacy" />
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="jb4.3" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
