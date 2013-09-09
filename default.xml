@@ -417,6 +417,7 @@
   <project path="vendor/lge" name="LOSP/proprietary_vendor_lge" remote="github" revision="jb43" />
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="github" revision="jb43" />
   <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="github" revision="jb43" />
+  <project path="frameworks/base/data" name="bihariel/frameworks_base_data" remote="github" revision="master" />
 
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
