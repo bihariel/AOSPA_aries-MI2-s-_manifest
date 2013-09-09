@@ -418,8 +418,6 @@
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="github" revision="jb43" />
   <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="github" revision="jb43" />
   <project path="frameworks/base/data" name="bihariel/frameworks_base_data" remote="github" revision="master" />
-  <project path="android/build/core" name="bihariel/android_build_core" remote="github" revision="jb43" />
-
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />
